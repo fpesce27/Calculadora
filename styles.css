@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #161616;
+}
+
+.container {
+    background-color: black;
+    width: 400px;
+    height: 700px;
+}
+
+.results {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;   
+}
+
+.results p {
+    margin-right: 30px;
+    font-size: 1.5em;
+}
+
+.gray-buttons {
+    width: 75%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gray-buttons button {
+    background-color: gray;
+    color: black;
+    border: none;
+    height: 70%;
+    box-sizing: border-box;
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.ac {
+    width: 68%;
+    border-radius: 100px;
+}
+
+.module {
+    width: 25%;
+    border-radius: 100%;
+}
+
+.orange-buttons button {
+    width: 80%;
+    height: 20%;
+    border-radius: 50%;
+    border: none;
+    background-color: orange;
+    color:white;
+    box-sizing: border-box;
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+.orange-buttons {
+    width: 25%;
+    height: 75%;
+    position: relative;
+    left: 75%;
+    bottom: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numbers {
+    width: 75%;
+    height: 60%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.numbers button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 100%;
+    height: 20%;
+    width: 30%;
+    box-sizing: border-box;
+    margin-left: 7px;
+    margin-top: 17px;
+    font-size: 1.5em;
+}
+
+.b0 {
+    width: 64% !important;
+    border-radius: 50px !important;
+}
+
+button {
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #999;
+    color: #fff;
+}
+
+button:active {
+    background-color: #bbb;
+    color: #fff;
+}
+
+.operators {
+    color: #999;
+}
